@@ -14,24 +14,26 @@
 </head>
 <body>
   <a id="top"></a>
-  <nav class="green" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo quicksand-font">dihedral</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#top">Top</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="green" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo quicksand-font">dihedral</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#top">Top</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#top">Top</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#top">Top</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
   <div class="homepage-hero-module">
   <div class="title-container">
                   <br><br><br><br>
@@ -55,9 +57,9 @@
                     ▼
                 </p>
               </div>
-              <!-- <div class="poster hidden">
+              <div class="poster hidden">
                   <img src="vid/Hello-World.jpg" alt="">
-              </div> -->
+              </div>
           </div>
       </div>
 
@@ -86,6 +88,12 @@
 
       <div class="row">
 
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <p class="center "><object data="img/graph.svg"></object></p>
+          </div>
+        </div>
+
         <div class="col s12 m8">
           <div class="icon-block">
             <br>
@@ -95,11 +103,7 @@
           </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <p class="center "><object data="img/graph.svg"></object></p>
-          </div>
-        </div>
+        
       </div>
     <br>
     <div class="divider"></div>
@@ -164,8 +168,7 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/jquery.smooth-scroll.js"></script>  
-  <script src="../../bin/materialize.js"></script>
-  <!--<script src="js/init.js"></script>-->
+  <script src="js/materialize.min.js"></script>
   <script type="text/javascript">
     //jQuery is required to run this code
     $( document ).ready(function() {

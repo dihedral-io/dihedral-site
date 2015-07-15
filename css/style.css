@@ -19,10 +19,8 @@ html, body {
 }
 
 /* Nav */
-nav {
-  position: fixed;
-  top: 0;
-  z-index: 9999;
+.navbar-fixed {
+  z-index: 9999 !important;
 }
 
 object {
@@ -33,7 +31,7 @@ object {
 .title-container {
   position: absolute;
   display: block;
-  top: 20%;
+  top: 10%;
   width: 100%;
   text-align: center;
   z-index: 1000;
@@ -78,6 +76,9 @@ object {
     top: 0%;
     overflow: hidden;
     background: #000;
+}
+.video-container .hidden {
+  display: none;
 }
 .video-container .poster img {
     width: 100%;
