@@ -31,7 +31,7 @@ object {
 .title-container {
   position: absolute;
   display: block;
-  top: 10%;
+  top: 25%;
   width: 100%;
   text-align: center;
   z-index: 1000;
