@@ -47,8 +47,10 @@
               
               <div class="filter"></div>
               <div class="section no-pad-bot" id="index-banner">
-                
-              <video autoplay loop class="fillWidth">
+              <div class="poster">
+                  <img src="vid/Hello-World.jpg" alt="">
+              </div>
+              <video autoplay loop class="fillWidth hide-on-med-and-down">
                   <!-- <source src="vid/Hello-World.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
                   <source src="vid/Hello-World.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
               </video>
@@ -57,10 +59,9 @@
                     ▼
                 </p>
               </div> -->
-              <div class="poster hidden">
-                  <img src="vid/Hello-World.jpg" alt="">
-              </div>
+
           </div>
+
       </div>
 
       <br><br><br><br><br><br>
@@ -174,6 +175,7 @@
     $( document ).ready(function() {
         $('a').smoothScroll();
         scaleVideoContainer();
+        $(".button-collapse").sideNav();
 
         initBannerVideoSize('.video-container .poster img');
         initBannerVideoSize('.video-container .filter');
