@@ -13,20 +13,21 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <a id="top"></a>
   <nav class="green" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo quicksand-font">dihedral</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Top</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#top">Top</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Top</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#top">Top</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -62,10 +63,9 @@
 
       <br><br><br><br><br><br>
 
-
+  <a id="services"></a>
   <div class="container">
     <div class="section">
-
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
@@ -79,7 +79,7 @@
             <br>
             <h2 class="left light">We'll help you reach your goals</h2>
             <br>
-            <p class="light">Whether it's increased sales, customer insight, or building custom software - we can get it done. We have world class expertise in data analysis - honed in the classes and research labs at MIT - and we want to share that with you.</p>
+            <p class="light flow-text">Whether it's increased sales, customer insight, or building custom software - we can get it done. We have world class expertise in data analysis - honed in the classes and research labs at MIT - and we want to share that with you.</p>
           </div>
         </div>
       </div>
@@ -91,52 +91,60 @@
             <br>
             <h2 class="left light">See your data like never before</h2>
             <br>
-            <p class="light">Have more data than you can handle? No problem - we're happy to turn spreadsheets and databases into beautiful, insightful charts and documents. Don't have enough data? We can work together to build data collection strategies.</p>
+            <p class="light flow-text">Have more data than you can handle? No problem - we're happy to turn spreadsheets and databases into beautiful, insightful charts and documents. Don't have enough data? We can work together to build data collection strategies.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <p class="center"><object data="img/graph.svg"></object></p>
+            <p class="center "><object data="img/graph.svg"></object></p>
           </div>
         </div>
       </div>
+    <br>
+    <div class="divider"></div>
 
+    </div>
+    <a id="team"></a>
+    <br><br><br><br>
+    <div class="section">
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <p class="center"><object data="img/shake.svg"></object></p>
+            <img class="responsive-img circle" src="img/eddie_bw.png">
           </div>
         </div>
-
         <div class="col s12 m8">
           <div class="icon-block">
+            <h4 class="light">Edward Kim</h4>
+            <h5 class="">Founder</h5>
             <br>
-            <h2 class="left light">You're in good company!</h2>
-            <br>
-            <p class="light">BECAUSE REASONS (Soon to come)</p>
+            <p class="light">Edward has more than ten years of experience in programming and data analysis, and has previously worked in fields ranging from toxicology and experimental physics, to electrode design and 3D visualization. He currently researches applications of machine learning and natural language processing as a PhD student in the Materials Science department at MIT.</p>
           </div>
         </div>
       </div>
-
-    </div>
-    <br><br>
-
-    <div class="section">
     </div>
   </div>
 
-  <footer class="page-footer grey">
+  <a id="contact"></a>
+  <div class="section blue">
+      <br><br>
+      <div class="row">
+        <h1 class="white-text center light">Want to work with us?</h1>
+        <h4 class="white-text center quicksand-font">hello@dihedral.io</h4>
+        <p class="white-text center light">( Initial consultations are free! )</p>
+      </div>
+      <br><br>
+    </div>
+  <footer class="page-footer no-margin grey">
     <div class="container">
+      
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">About <span class='quicksand-font'>dihedral</span></h5>
           <p class="grey-text text-lighten-4"><span class='quicksand-font'>dihedral technologies</span> is a new data science consulting firm focused on making top-tier technical expertise available to everyone at an affordable price.</p>
         </div>
-        <div class="col l3 s12">
-        <p></p>
-        </div>
-        <div class="col l3 s12">
+        <div class="col offset-l3 l3 s12">
           <h5 class="white-text">Give us a Shout</h5>
           <ul>
             <p class="white-text">Interested in hiring us? We're happy to hear from you.</p>
@@ -155,12 +163,13 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <!--<script src="../../bin/materialize.js"></script>
-  <script src="js/init.js"></script>-->
+  <script src="js/jquery.smooth-scroll.js"></script>  
+  <script src="../../bin/materialize.js"></script>
+  <!--<script src="js/init.js"></script>-->
   <script type="text/javascript">
     //jQuery is required to run this code
     $( document ).ready(function() {
-
+        $('a').smoothScroll();
         scaleVideoContainer();
 
         initBannerVideoSize('.video-container .poster img');

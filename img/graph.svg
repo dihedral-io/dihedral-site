@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+	 viewBox="0 0 500 398" enable-background="new 0 0 500 398" xml:space="preserve">
 <path fill="#20B70F" d="M250,10C145,10,60,95,60,200s85,190,190,190s190-85,190-190S355,10,250,10z M250,373.3
-	c-61.7,0-115-31.7-146.7-80l63.3-71.7l60,48.3L315,166.7v66.7c0,5,3.3,8.3,8.3,8.3c5,0,8.3-3.3,8.3-8.3V140h-93.3
-	c-5,0-8.3,3.3-8.3,8.3c0,5,3.3,8.3,8.3,8.3h68.3L225,250l-58.3-50l-70,78.3c-13.3-23.3-20-50-20-78.3c0-96.7,76.7-173.3,173.3-173.3
-	S423.3,103.3,423.3,200S346.7,373.3,250,373.3z"/>
-<text transform="matrix(1 0 0 1 49.9897 649.9946)" font-family="'HelveticaNeue-Bold'" font-size="83.3333">Created by Iconographer</text>
+	c-61.7,0-115-31.7-146.7-80l63.3-71.7l60,48.3L315,166.7v66.7c0,5,3.3,8.3,8.3,8.3s8.3-3.3,8.3-8.3V140h-93.3c-5,0-8.3,3.3-8.3,8.3
+	s3.3,8.3,8.3,8.3h68.3L225,250l-58.3-50l-70,78.3c-13.3-23.3-20-50-20-78.3c0-96.7,76.7-173.3,173.3-173.3S423.3,103.3,423.3,200
+	S346.7,373.3,250,373.3z"/>
 <text transform="matrix(1 0 0 1 49.9897 733.3406)" font-family="'HelveticaNeue-Bold'" font-size="83.3333">from the Noun Project</text>
 </svg>
