@@ -52,6 +52,11 @@ object {
   padding-top: 35vh;
   padding-bottom: 35vh;
 }
+.medmargin {
+  height: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
 .bigmargin {
   height: 30vh;
   margin-top: 30vh;
