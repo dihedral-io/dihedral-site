@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Dihedral Technologies</title>
+  <title>Dihedral</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,16 +16,18 @@
   <a id="top"></a>
   <div class="navbar-fixed">
     <nav class="grey darken-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo head-font">DIHEDRAL</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="#top" class="brand-logo head-font">DIHEDRAL</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#top">Top</a></li>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-          <li><a href="#top">Top</a></li>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -36,11 +38,12 @@
   </div>
   <div class="homepage-hero-module">
   <div class="title-container">
-      <h2 class="valign header center white-text head-font">DIHEDRAL TECHNOLOGIES</h2>
+      <h2 class="valign header center white-text head-font">DIHEDRAL</h2>
+      <h5 class="valign header center white-text head-font" id="typetitle"></h5>
     </div>
   </div>
           <div class="video-container">
-              
+
               <div class="filter"></div>
               <div class="section no-pad-bot" id="index-banner">
               <div class="poster">
@@ -55,22 +58,22 @@
                     ▼
                 </p>
               </div>
-
           </div>
-
       </div>
 
-  <a id="services"></a>
+  <a id="about"></a>
   <div class="container">
     <div class="section">
       <!--   Icon Section   -->
       <div class="row bigmargin">
-        <div class="col offset-m1 s12 m10">        
-            <p class="center flow-text medpadbox">We're a <strong>data science consulting</strong> firm specializing in machine learning and natural language processing. Our mission is to make data science available to anyone by offering fair prices and embracing open source software.</p>
+        <div class="col offset-m1 s12 m10">
+            <p class="center flow-text medpadbox"><span class='head-font'>DIHEDRAL</span> is a data science technology firm, specializing in machine learning and natural language processing. We currently focus on providing <strong>consulting services</strong>, though we're also expanding into other areas.</p>
         </div>
       </div>
-
-      <div class="row">
+    </div>
+    <a id="services"></a>
+    <div class="section">
+      <div class="row top-margin">
         <div class="col s12 m12">
           <div class="icon-block">
             <h2 class="left-align">We'll help you reach your goals</h2>
@@ -87,7 +90,7 @@
           </div>
         </div>
 
-        
+
       </div>
 
 
@@ -121,11 +124,11 @@
     </div>
   <footer class="page-footer no-margin grey">
     <div class="container">
-      
+
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">About <span class='head-font'>DIHEDRAL</span></h5>
-          <p class="grey-text text-lighten-4"><span class='head-font'>DIHEDRAL TECHNOLOGIES</span> is a data science consulting firm focused on making top-tier technical expertise available to everyone and anyone.</p>
+          <p class="grey-text text-lighten-4"><span class='head-font'>DIHEDRAL</span> is a data science consulting firm focused on making top-tier technical expertise available to everyone and anyone.</p>
           <p class="grey-text text-lighten-4">Check us out on <a class="orange-text text-lighten-3" href="https://github.com/dihedral-data"><strong>[Github]</strong></a></p>
         </div>
         <div class="col offset-l3 l3 s12">
@@ -147,7 +150,27 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/jquery.smooth-scroll.js"></script>  
+  <script src="js/jquery.smooth-scroll.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script>
+    $(function(){
+        $("#typetitle").typed({
+          strings: [
+            "Data Science",
+            "Machine Learning",
+            "Natural Language Processing",
+            "Deep Learning",
+            "Artificial Intelligence"
+          ],
+          typeSpeed: 25,
+          startDelay: 1000,
+          backDelay: 2500,
+          backSpeed: 15,
+          loop: true,
+          showCursor: false
+        });
+    });
+  </script>
   <script src="js/materialize.min.js"></script>
   <script type="text/javascript">
     //jQuery is required to run this code

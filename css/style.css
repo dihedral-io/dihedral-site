@@ -44,6 +44,9 @@ object {
 .no-pad {
   padding: 0 !important;
 }
+.top-margin{
+  margin-top: 10vh;
+}
 .medpadbox {
   padding: 10vh;
   border: 4px #000000 solid;
@@ -59,7 +62,7 @@ object {
 }
 .bigmargin {
   height: 30vh;
-  margin-top: 35vh;
+  margin-top: 25vh;
   margin-bottom: 35vh;
 }
 
