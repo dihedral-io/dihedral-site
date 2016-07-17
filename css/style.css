@@ -31,6 +31,10 @@ object {
   height: 100%;
 }
 
+.img-scale {
+  width: 120%;
+}
+
 /* Positioning */
 .title-container {
   position: absolute;
